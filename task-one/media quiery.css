@@ -1,0 +1,83 @@
+@media screen and (max-width:991px) {
+    .navbar {
+        display: none;
+    }
+    .menu {
+        display: block;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .how-content h1 {
+        font-size: 25px;
+    }
+    .how-content h3 {
+        font-size: 20px;
+    }
+    .header .logo {
+        font-size: 15px;
+    }
+    .Home {
+        flex-direction: column;
+    }
+    .Home .img-box img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .img-box {
+        animation: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .how-content .btn-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Home-ico {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:279px) {
+    .about-heading {
+        font-size: 10px;
+    }
+    .myintro-box img {
+        width: 70px;
+    }
+    .myintro-box h2 {
+        font-size: 15px;
+    }
+    .myintro-box p {
+        font-size: 10px;
+    }
+    .myskills .btn-box {
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-top: 5px;
+    }
+    .certificates .btn-box {
+        padding: 12px 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .certificates .btn-box p {
+        font-size: 11px;
+    }
+    .certificates-cont p {
+        font-size: 13px;
+    }
+}
